@@ -4,10 +4,10 @@ import csv,math,numpy as np
 from Tkinter import *
 
 # Leitura dos dados
-local='c:\\Users\\projetos\\Downloads\\'
+local='c:\\Users\\projetos\\Downloads\\' #File location
 #lendo a lista da serie de dados do mapa base
 entrada='u10_v10-23.25 -42.75.txt'#tkSimpleDialog.askstring('Pybat','Arquivo de batimetria')
-ini=local+entrada # somando os endereços
+ini=local+entrada # somando os endereÃ§os
 
 dados=csv.reader(open(ini),delimiter='\t',lineterminator='\n')
 linhas=[]
